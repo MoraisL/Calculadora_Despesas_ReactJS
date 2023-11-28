@@ -1,0 +1,32 @@
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.cadastro,
+.receita,
+.despesa {
+  width: 30%; /* Ajuste conforme necessário */
+}
+
+/* Adicione estilos adicionais conforme necessário */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/dinheiro.png'); /* Substitua o caminho pela localização real da sua imagem */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Ajuste o último valor para definir a opacidade desejada (0 completamente transparente, 1 completamente opaco) */
+  z-index: -1;
+}
